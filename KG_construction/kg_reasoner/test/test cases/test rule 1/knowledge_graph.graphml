@@ -1,0 +1,662 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d25" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d24" for="edge" attr.name="relation" attr.type="string"/>
+<key id="d23" for="node" attr.name="cluseter_id" attr.type="long"/>
+<key id="d22" for="node" attr.name="rationale" attr.type="string"/>
+<key id="d21" for="node" attr.name="code" attr.type="string"/>
+<key id="d20" for="node" attr.name="cluster_type" attr.type="string"/>
+<key id="d19" for="node" attr.name="belong_to" attr.type="string"/>
+<key id="d18" for="node" attr.name="readme" attr.type="string"/>
+<key id="d17" for="node" attr.name="attack_name" attr.type="string"/>
+<key id="d16" for="node" attr.name="strategy_id" attr.type="string"/>
+<key id="d15" for="node" attr.name="embedding" attr.type="string"/>
+<key id="d14" for="node" attr.name="is_relevant" attr.type="string"/>
+<key id="d13" for="node" attr.name="is_representative" attr.type="boolean"/>
+<key id="d12" for="node" attr.name="cluster_id" attr.type="long"/>
+<key id="d11" for="node" attr.name="url" attr.type="string"/>
+<key id="d10" for="node" attr.name="description" attr.type="string"/>
+<key id="d9" for="node" attr.name="family" attr.type="string"/>
+<key id="d8" for="node" attr.name="node_class" attr.type="string"/>
+<key id="d7" for="node" attr.name="name" attr.type="string"/>
+<key id="d6" for="node" attr.name="type" attr.type="string"/>
+<key id="d5" for="graph" attr.name="creation_date" attr.type="string"/>
+<key id="d4" for="graph" attr.name="num_repositories" attr.type="long"/>
+<key id="d3" for="graph" attr.name="num_clusters" attr.type="long"/>
+<key id="d2" for="graph" attr.name="num_features" attr.type="long"/>
+<key id="d1" for="graph" attr.name="num_strategies" attr.type="long"/>
+<key id="d0" for="graph" attr.name="name" attr.type="string"/>
+<graph edgedefault="directed"><data key="d0">Attack Strategy Knowledge Graph</data>
+<data key="d1">7</data>
+<data key="d2">7</data>
+<data key="d3">3</data>
+<data key="d4">7</data>
+<data key="d5">2025-03-25T00:46:42.786580</data>
+<node id="family:Test Family">
+  <data key="d6">family</data>
+  <data key="d7">Test Family</data>
+  <data key="d8">Family</data>
+</node>
+<node id="attack:Test Attack">
+  <data key="d6">attack</data>
+  <data key="d7">Test Attack</data>
+  <data key="d9">Test Family</data>
+  <data key="d8">Attack</data>
+</node>
+<node id="strategy:ddf024d2e5c8275294ae7581c1c58f5c4513087dff350494fb4c698fe517d7f4|Test Attack">
+  <data key="d6">strategy</data>
+  <data key="d7">Strategy0</data>
+  <data key="d10">Description0</data>
+  <data key="d11">URL0</data>
+  <data key="d12">0</data>
+  <data key="d13">True</data>
+  <data key="d14">YES</data>
+  <data key="d15">[0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 0.10]</data>
+  <data key="d8">Strategy</data>
+</node>
+<node id="repo:URL0|Test Attack">
+  <data key="d6">repository</data>
+  <data key="d11">URL0</data>
+  <data key="d16">strategy:ddf024d2e5c8275294ae7581c1c58f5c4513087dff350494fb4c698fe517d7f4|Test Attack</data>
+  <data key="d17">Test Attack</data>
+  <data key="d18">README0</data>
+  <data key="d8">Repository</data>
+</node>
+<node id="cluster:0|Test Attack|strategy">
+  <data key="d6">cluster</data>
+  <data key="d19">Strategy3</data>
+  <data key="d17">Test Attack</data>
+  <data key="d20">strategy</data>
+  <data key="d8">Cluster</data>
+</node>
+<node id="strategy:fdf8c063163210c0461e1d3e683d638197409dd6db59df510679b3de31e71595|Test Attack">
+  <data key="d6">strategy</data>
+  <data key="d7">Strategy1</data>
+  <data key="d10">Description1</data>
+  <data key="d11">URL1</data>
+  <data key="d12">0</data>
+  <data key="d13">False</data>
+  <data key="d14">YES</data>
+  <data key="d15">[0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 0.10]</data>
+  <data key="d8">Strategy</data>
+</node>
+<node id="repo:URL1|Test Attack">
+  <data key="d6">repository</data>
+  <data key="d11">URL1</data>
+  <data key="d16">strategy:fdf8c063163210c0461e1d3e683d638197409dd6db59df510679b3de31e71595|Test Attack</data>
+  <data key="d17">Test Attack</data>
+  <data key="d18">README1</data>
+  <data key="d8">Repository</data>
+</node>
+<node id="strategy:602374b01781f3fdda1bd52ce4082d5745d9a897a77ab7521c32d479b0b55685|Test Attack">
+  <data key="d6">strategy</data>
+  <data key="d7">Strategy2</data>
+  <data key="d10">Description2</data>
+  <data key="d11">URL2</data>
+  <data key="d12">0</data>
+  <data key="d13">False</data>
+  <data key="d14">YES</data>
+  <data key="d15">[0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 0.10]</data>
+  <data key="d8">Strategy</data>
+</node>
+<node id="repo:URL2|Test Attack">
+  <data key="d6">repository</data>
+  <data key="d11">URL2</data>
+  <data key="d16">strategy:602374b01781f3fdda1bd52ce4082d5745d9a897a77ab7521c32d479b0b55685|Test Attack</data>
+  <data key="d17">Test Attack</data>
+  <data key="d18">README2</data>
+  <data key="d8">Repository</data>
+</node>
+<node id="strategy:06c0cad2e3bd060e555caec1363c8ea19f8ef3d1b131117fbe9dbeeb0b347933|Test Attack">
+  <data key="d6">strategy</data>
+  <data key="d7">Strategy3</data>
+  <data key="d10">Description3</data>
+  <data key="d11">URL3</data>
+  <data key="d12">0</data>
+  <data key="d13">False</data>
+  <data key="d14">YES</data>
+  <data key="d15">[0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 0.10]</data>
+  <data key="d8">Strategy</data>
+</node>
+<node id="repo:URL3|Test Attack">
+  <data key="d6">repository</data>
+  <data key="d11">URL3</data>
+  <data key="d16">strategy:06c0cad2e3bd060e555caec1363c8ea19f8ef3d1b131117fbe9dbeeb0b347933|Test Attack</data>
+  <data key="d17">Test Attack</data>
+  <data key="d18">README3</data>
+  <data key="d8">Repository</data>
+</node>
+<node id="strategy:3b8cd954ea8a9a8b9e5e0a8ced51520958f691f1fa13d66c9f5ab4bdd5e92f1d|Test Attack">
+  <data key="d6">strategy</data>
+  <data key="d7">Strategy4</data>
+  <data key="d10">Description4</data>
+  <data key="d11">URL4</data>
+  <data key="d12">1</data>
+  <data key="d13">True</data>
+  <data key="d14">YES</data>
+  <data key="d15">[0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 0.10]</data>
+  <data key="d8">Strategy</data>
+</node>
+<node id="repo:URL4|Test Attack">
+  <data key="d6">repository</data>
+  <data key="d11">URL4</data>
+  <data key="d16">strategy:3b8cd954ea8a9a8b9e5e0a8ced51520958f691f1fa13d66c9f5ab4bdd5e92f1d|Test Attack</data>
+  <data key="d17">Test Attack</data>
+  <data key="d18">README4</data>
+  <data key="d8">Repository</data>
+</node>
+<node id="cluster:1|Test Attack|strategy">
+  <data key="d6">cluster</data>
+  <data key="d19">Strategy5</data>
+  <data key="d17">Test Attack</data>
+  <data key="d20">strategy</data>
+  <data key="d8">Cluster</data>
+</node>
+<node id="strategy:260fecedfdd1ed47fe81db8797a6cb05f566dfc692dc6230e74b9e83413acb9d|Test Attack">
+  <data key="d6">strategy</data>
+  <data key="d7">Strategy5</data>
+  <data key="d10">Description5</data>
+  <data key="d11">URL5</data>
+  <data key="d12">1</data>
+  <data key="d13">False</data>
+  <data key="d14">YES</data>
+  <data key="d15">[0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 0.10]</data>
+  <data key="d8">Strategy</data>
+</node>
+<node id="repo:URL5|Test Attack">
+  <data key="d6">repository</data>
+  <data key="d11">URL5</data>
+  <data key="d16">strategy:260fecedfdd1ed47fe81db8797a6cb05f566dfc692dc6230e74b9e83413acb9d|Test Attack</data>
+  <data key="d17">Test Attack</data>
+  <data key="d18">README5</data>
+  <data key="d8">Repository</data>
+</node>
+<node id="strategy:ee3e0c2126cb9739760fc92e8e247903c118a10b1a25bbbe939bfd4f9729c47f|Test Attack">
+  <data key="d6">strategy</data>
+  <data key="d7">Strategy6</data>
+  <data key="d10">Description6</data>
+  <data key="d11">URL6</data>
+  <data key="d12">2</data>
+  <data key="d13">True</data>
+  <data key="d14">YES</data>
+  <data key="d15">[0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 0.10]</data>
+  <data key="d8">Strategy</data>
+</node>
+<node id="repo:URL6|Test Attack">
+  <data key="d6">repository</data>
+  <data key="d11">URL6</data>
+  <data key="d16">strategy:ee3e0c2126cb9739760fc92e8e247903c118a10b1a25bbbe939bfd4f9729c47f|Test Attack</data>
+  <data key="d17">Test Attack</data>
+  <data key="d18">README6</data>
+  <data key="d8">Repository</data>
+</node>
+<node id="cluster:2|Test Attack|strategy">
+  <data key="d6">cluster</data>
+  <data key="d19">Strategy6</data>
+  <data key="d17">Test Attack</data>
+  <data key="d20">strategy</data>
+  <data key="d8">Cluster</data>
+</node>
+<node id="feature:'ddf024d2e5c8275294ae7581c1c58f5c4513087dff350494fb4c698fe517d7f4'|Test Attack">
+  <data key="d6">feature</data>
+  <data key="d7">feature1</data>
+  <data key="d10">description1</data>
+  <data key="d16">'ddf024d2e5c8275294ae7581c1c58f5c4513087dff350494fb4c698fe517d7f4'</data>
+  <data key="d21">code1</data>
+  <data key="d22">rationale1</data>
+  <data key="d15">[0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 0.10]</data>
+  <data key="d13">True</data>
+  <data key="d23">0</data>
+  <data key="d8">Feature</data>
+</node>
+<node id="strategy:'ddf024d2e5c8275294ae7581c1c58f5c4513087dff350494fb4c698fe517d7f4'|Test Attack"/>
+<node id="cluster:0|Test Attack|feature">
+  <data key="d6">cluster</data>
+  <data key="d19">feature1</data>
+  <data key="d17">Test Attack</data>
+  <data key="d20">feature</data>
+  <data key="d8">Cluster</data>
+</node>
+<node id="feature:'fdf8c063163210c0461e1d3e683d638197409dd6db59df510679b3de31e71595'|Test Attack">
+  <data key="d6">feature</data>
+  <data key="d7">feature2</data>
+  <data key="d10">description2</data>
+  <data key="d16">'fdf8c063163210c0461e1d3e683d638197409dd6db59df510679b3de31e71595'</data>
+  <data key="d21">code2</data>
+  <data key="d22">rationale2</data>
+  <data key="d15">[0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 0.10]</data>
+  <data key="d13">False</data>
+  <data key="d23">1</data>
+  <data key="d8">Feature</data>
+</node>
+<node id="strategy:'fdf8c063163210c0461e1d3e683d638197409dd6db59df510679b3de31e71595'|Test Attack"/>
+<node id="cluster:1|Test Attack|feature">
+  <data key="d6">cluster</data>
+  <data key="d19">feature4</data>
+  <data key="d17">Test Attack</data>
+  <data key="d20">feature</data>
+  <data key="d8">Cluster</data>
+</node>
+<node id="feature:'602374b01781f3fdda1bd52ce4082d5745d9a897a77ab7521c32d479b0b55685'|Test Attack">
+  <data key="d6">feature</data>
+  <data key="d7">feature3</data>
+  <data key="d10">description3</data>
+  <data key="d16">'602374b01781f3fdda1bd52ce4082d5745d9a897a77ab7521c32d479b0b55685'</data>
+  <data key="d21">code3</data>
+  <data key="d22">rationale3</data>
+  <data key="d15">[0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 0.10]</data>
+  <data key="d13">False</data>
+  <data key="d23">1</data>
+  <data key="d8">Feature</data>
+</node>
+<node id="strategy:'602374b01781f3fdda1bd52ce4082d5745d9a897a77ab7521c32d479b0b55685'|Test Attack"/>
+<node id="feature:'06c0cad2e3bd060e555caec1363c8ea19f8ef3d1b131117fbe9dbeeb0b347933'|Test Attack">
+  <data key="d6">feature</data>
+  <data key="d7">feature4</data>
+  <data key="d10">description4</data>
+  <data key="d16">'06c0cad2e3bd060e555caec1363c8ea19f8ef3d1b131117fbe9dbeeb0b347933'</data>
+  <data key="d21">code4</data>
+  <data key="d22">rationale4</data>
+  <data key="d15">[0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 0.10]</data>
+  <data key="d13">False</data>
+  <data key="d23">1</data>
+  <data key="d8">Feature</data>
+</node>
+<node id="strategy:'06c0cad2e3bd060e555caec1363c8ea19f8ef3d1b131117fbe9dbeeb0b347933'|Test Attack"/>
+<node id="feature:'3b8cd954ea8a9a8b9e5e0a8ced51520958f691f1fa13d66c9f5ab4bdd5e92f1d'|Test Attack">
+  <data key="d6">feature</data>
+  <data key="d7">feature5</data>
+  <data key="d10">description5</data>
+  <data key="d16">'3b8cd954ea8a9a8b9e5e0a8ced51520958f691f1fa13d66c9f5ab4bdd5e92f1d'</data>
+  <data key="d21">code5</data>
+  <data key="d22">rationale5</data>
+  <data key="d15">[0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 0.10]</data>
+  <data key="d13">True</data>
+  <data key="d23">2</data>
+  <data key="d8">Feature</data>
+</node>
+<node id="strategy:'3b8cd954ea8a9a8b9e5e0a8ced51520958f691f1fa13d66c9f5ab4bdd5e92f1d'|Test Attack"/>
+<node id="cluster:2|Test Attack|feature">
+  <data key="d6">cluster</data>
+  <data key="d19">feature6</data>
+  <data key="d17">Test Attack</data>
+  <data key="d20">feature</data>
+  <data key="d8">Cluster</data>
+</node>
+<node id="feature:'260fecedfdd1ed47fe81db8797a6cb05f566dfc692dc6230e74b9e83413acb9d'|Test Attack">
+  <data key="d6">feature</data>
+  <data key="d7">feature6</data>
+  <data key="d10">description6</data>
+  <data key="d16">'260fecedfdd1ed47fe81db8797a6cb05f566dfc692dc6230e74b9e83413acb9d'</data>
+  <data key="d21">code6</data>
+  <data key="d22">rationale6</data>
+  <data key="d15">[0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 0.10]</data>
+  <data key="d13">False</data>
+  <data key="d23">2</data>
+  <data key="d8">Feature</data>
+</node>
+<node id="strategy:'260fecedfdd1ed47fe81db8797a6cb05f566dfc692dc6230e74b9e83413acb9d'|Test Attack"/>
+<node id="feature:'ee3e0c2126cb9739760fc92e8e247903c118a10b1a25bbbe939bfd4f9729c47f'|Test Attack">
+  <data key="d6">feature</data>
+  <data key="d7">feature7</data>
+  <data key="d10">description7</data>
+  <data key="d16">'ee3e0c2126cb9739760fc92e8e247903c118a10b1a25bbbe939bfd4f9729c47f'</data>
+  <data key="d21">code7</data>
+  <data key="d22">rationale7</data>
+  <data key="d15">[0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 0.10]</data>
+  <data key="d13">False</data>
+  <data key="d23">3</data>
+  <data key="d8">Feature</data>
+</node>
+<node id="strategy:'ee3e0c2126cb9739760fc92e8e247903c118a10b1a25bbbe939bfd4f9729c47f'|Test Attack"/>
+<node id="cluster:3|Test Attack|feature">
+  <data key="d6">cluster</data>
+  <data key="d19">feature7</data>
+  <data key="d17">Test Attack</data>
+  <data key="d20">feature</data>
+  <data key="d8">Cluster</data>
+</node>
+<edge source="family:Test Family" target="attack:Test Attack">
+  <data key="d24">hasChild</data>
+  <data key="d25">1.0</data>
+</edge>
+<edge source="attack:Test Attack" target="family:Test Family">
+  <data key="d24">belongsToFamily</data>
+  <data key="d25">1.0</data>
+</edge>
+<edge source="attack:Test Attack" target="strategy:ddf024d2e5c8275294ae7581c1c58f5c4513087dff350494fb4c698fe517d7f4|Test Attack">
+  <data key="d24">hasStrategy</data>
+  <data key="d25">1.0</data>
+</edge>
+<edge source="attack:Test Attack" target="repo:URL0|Test Attack">
+  <data key="d24">isImplementedIn</data>
+  <data key="d25">1.0</data>
+</edge>
+<edge source="attack:Test Attack" target="cluster:0|Test Attack|strategy">
+  <data key="d24">hasCluster</data>
+  <data key="d25">1.0</data>
+</edge>
+<edge source="attack:Test Attack" target="strategy:fdf8c063163210c0461e1d3e683d638197409dd6db59df510679b3de31e71595|Test Attack">
+  <data key="d24">hasStrategy</data>
+  <data key="d25">1.0</data>
+</edge>
+<edge source="attack:Test Attack" target="repo:URL1|Test Attack">
+  <data key="d24">isImplementedIn</data>
+  <data key="d25">1.0</data>
+</edge>
+<edge source="attack:Test Attack" target="strategy:602374b01781f3fdda1bd52ce4082d5745d9a897a77ab7521c32d479b0b55685|Test Attack">
+  <data key="d24">hasStrategy</data>
+  <data key="d25">1.0</data>
+</edge>
+<edge source="attack:Test Attack" target="repo:URL2|Test Attack">
+  <data key="d24">isImplementedIn</data>
+  <data key="d25">1.0</data>
+</edge>
+<edge source="attack:Test Attack" target="strategy:06c0cad2e3bd060e555caec1363c8ea19f8ef3d1b131117fbe9dbeeb0b347933|Test Attack">
+  <data key="d24">hasStrategy</data>
+  <data key="d25">1.0</data>
+</edge>
+<edge source="attack:Test Attack" target="repo:URL3|Test Attack">
+  <data key="d24">isImplementedIn</data>
+  <data key="d25">1.0</data>
+</edge>
+<edge source="attack:Test Attack" target="strategy:3b8cd954ea8a9a8b9e5e0a8ced51520958f691f1fa13d66c9f5ab4bdd5e92f1d|Test Attack">
+  <data key="d24">hasStrategy</data>
+  <data key="d25">1.0</data>
+</edge>
+<edge source="attack:Test Attack" target="repo:URL4|Test Attack">
+  <data key="d24">isImplementedIn</data>
+  <data key="d25">1.0</data>
+</edge>
+<edge source="attack:Test Attack" target="cluster:1|Test Attack|strategy">
+  <data key="d24">hasCluster</data>
+  <data key="d25">1.0</data>
+</edge>
+<edge source="attack:Test Attack" target="strategy:260fecedfdd1ed47fe81db8797a6cb05f566dfc692dc6230e74b9e83413acb9d|Test Attack">
+  <data key="d24">hasStrategy</data>
+  <data key="d25">1.0</data>
+</edge>
+<edge source="attack:Test Attack" target="repo:URL5|Test Attack">
+  <data key="d24">isImplementedIn</data>
+  <data key="d25">1.0</data>
+</edge>
+<edge source="attack:Test Attack" target="strategy:ee3e0c2126cb9739760fc92e8e247903c118a10b1a25bbbe939bfd4f9729c47f|Test Attack">
+  <data key="d24">hasStrategy</data>
+  <data key="d25">1.0</data>
+</edge>
+<edge source="attack:Test Attack" target="repo:URL6|Test Attack">
+  <data key="d24">isImplementedIn</data>
+  <data key="d25">1.0</data>
+</edge>
+<edge source="attack:Test Attack" target="cluster:2|Test Attack|strategy">
+  <data key="d24">hasCluster</data>
+  <data key="d25">1.0</data>
+</edge>
+<edge source="attack:Test Attack" target="cluster:0|Test Attack|feature">
+  <data key="d24">hasCluster</data>
+  <data key="d25">1.0</data>
+</edge>
+<edge source="attack:Test Attack" target="cluster:1|Test Attack|feature">
+  <data key="d24">hasCluster</data>
+  <data key="d25">1.0</data>
+</edge>
+<edge source="attack:Test Attack" target="cluster:2|Test Attack|feature">
+  <data key="d24">hasCluster</data>
+  <data key="d25">1.0</data>
+</edge>
+<edge source="attack:Test Attack" target="cluster:3|Test Attack|feature">
+  <data key="d24">hasCluster</data>
+  <data key="d25">1.0</data>
+</edge>
+<edge source="strategy:ddf024d2e5c8275294ae7581c1c58f5c4513087dff350494fb4c698fe517d7f4|Test Attack" target="repo:URL0|Test Attack">
+  <data key="d24">hasSource</data>
+  <data key="d25">1.0</data>
+</edge>
+<edge source="strategy:ddf024d2e5c8275294ae7581c1c58f5c4513087dff350494fb4c698fe517d7f4|Test Attack" target="cluster:0|Test Attack|strategy">
+  <data key="d24">belongsTo</data>
+  <data key="d25">1.0</data>
+</edge>
+<edge source="repo:URL0|Test Attack" target="attack:Test Attack">
+  <data key="d24">belongsToAttack</data>
+  <data key="d25">1.0</data>
+</edge>
+<edge source="repo:URL0|Test Attack" target="strategy:ddf024d2e5c8275294ae7581c1c58f5c4513087dff350494fb4c698fe517d7f4|Test Attack">
+  <data key="d24">Implements</data>
+  <data key="d25">1.0</data>
+</edge>
+<edge source="cluster:0|Test Attack|strategy" target="strategy:ddf024d2e5c8275294ae7581c1c58f5c4513087dff350494fb4c698fe517d7f4|Test Attack">
+  <data key="d24">hasElement</data>
+  <data key="d25">1.0</data>
+</edge>
+<edge source="cluster:0|Test Attack|strategy" target="repo:URL0|Test Attack">
+  <data key="d24">isImplementedIn</data>
+  <data key="d25">1.0</data>
+</edge>
+<edge source="cluster:0|Test Attack|strategy" target="strategy:fdf8c063163210c0461e1d3e683d638197409dd6db59df510679b3de31e71595|Test Attack">
+  <data key="d24">hasElement</data>
+  <data key="d25">1.0</data>
+</edge>
+<edge source="cluster:0|Test Attack|strategy" target="repo:URL1|Test Attack">
+  <data key="d24">isImplementedIn</data>
+  <data key="d25">1.0</data>
+</edge>
+<edge source="cluster:0|Test Attack|strategy" target="strategy:602374b01781f3fdda1bd52ce4082d5745d9a897a77ab7521c32d479b0b55685|Test Attack">
+  <data key="d24">hasElement</data>
+  <data key="d25">1.0</data>
+</edge>
+<edge source="cluster:0|Test Attack|strategy" target="repo:URL2|Test Attack">
+  <data key="d24">isImplementedIn</data>
+  <data key="d25">1.0</data>
+</edge>
+<edge source="cluster:0|Test Attack|strategy" target="strategy:06c0cad2e3bd060e555caec1363c8ea19f8ef3d1b131117fbe9dbeeb0b347933|Test Attack">
+  <data key="d24">hasElement</data>
+  <data key="d25">1.0</data>
+</edge>
+<edge source="cluster:0|Test Attack|strategy" target="repo:URL3|Test Attack">
+  <data key="d24">isImplementedIn</data>
+  <data key="d25">1.0</data>
+</edge>
+<edge source="strategy:fdf8c063163210c0461e1d3e683d638197409dd6db59df510679b3de31e71595|Test Attack" target="repo:URL1|Test Attack">
+  <data key="d24">hasSource</data>
+  <data key="d25">1.0</data>
+</edge>
+<edge source="strategy:fdf8c063163210c0461e1d3e683d638197409dd6db59df510679b3de31e71595|Test Attack" target="cluster:0|Test Attack|strategy">
+  <data key="d24">belongsTo</data>
+  <data key="d25">1.0</data>
+</edge>
+<edge source="repo:URL1|Test Attack" target="attack:Test Attack">
+  <data key="d24">belongsToAttack</data>
+  <data key="d25">1.0</data>
+</edge>
+<edge source="repo:URL1|Test Attack" target="strategy:fdf8c063163210c0461e1d3e683d638197409dd6db59df510679b3de31e71595|Test Attack">
+  <data key="d24">Implements</data>
+  <data key="d25">1.0</data>
+</edge>
+<edge source="strategy:602374b01781f3fdda1bd52ce4082d5745d9a897a77ab7521c32d479b0b55685|Test Attack" target="repo:URL2|Test Attack">
+  <data key="d24">hasSource</data>
+  <data key="d25">1.0</data>
+</edge>
+<edge source="strategy:602374b01781f3fdda1bd52ce4082d5745d9a897a77ab7521c32d479b0b55685|Test Attack" target="cluster:0|Test Attack|strategy">
+  <data key="d24">belongsTo</data>
+  <data key="d25">1.0</data>
+</edge>
+<edge source="repo:URL2|Test Attack" target="attack:Test Attack">
+  <data key="d24">belongsToAttack</data>
+  <data key="d25">1.0</data>
+</edge>
+<edge source="repo:URL2|Test Attack" target="strategy:602374b01781f3fdda1bd52ce4082d5745d9a897a77ab7521c32d479b0b55685|Test Attack">
+  <data key="d24">Implements</data>
+  <data key="d25">1.0</data>
+</edge>
+<edge source="strategy:06c0cad2e3bd060e555caec1363c8ea19f8ef3d1b131117fbe9dbeeb0b347933|Test Attack" target="repo:URL3|Test Attack">
+  <data key="d24">hasSource</data>
+  <data key="d25">1.0</data>
+</edge>
+<edge source="strategy:06c0cad2e3bd060e555caec1363c8ea19f8ef3d1b131117fbe9dbeeb0b347933|Test Attack" target="cluster:0|Test Attack|strategy">
+  <data key="d24">belongsTo</data>
+  <data key="d25">1.0</data>
+</edge>
+<edge source="repo:URL3|Test Attack" target="attack:Test Attack">
+  <data key="d24">belongsToAttack</data>
+  <data key="d25">1.0</data>
+</edge>
+<edge source="repo:URL3|Test Attack" target="strategy:06c0cad2e3bd060e555caec1363c8ea19f8ef3d1b131117fbe9dbeeb0b347933|Test Attack">
+  <data key="d24">Implements</data>
+  <data key="d25">1.0</data>
+</edge>
+<edge source="strategy:3b8cd954ea8a9a8b9e5e0a8ced51520958f691f1fa13d66c9f5ab4bdd5e92f1d|Test Attack" target="repo:URL4|Test Attack">
+  <data key="d24">hasSource</data>
+  <data key="d25">1.0</data>
+</edge>
+<edge source="strategy:3b8cd954ea8a9a8b9e5e0a8ced51520958f691f1fa13d66c9f5ab4bdd5e92f1d|Test Attack" target="cluster:1|Test Attack|strategy">
+  <data key="d24">belongsTo</data>
+  <data key="d25">1.0</data>
+</edge>
+<edge source="repo:URL4|Test Attack" target="attack:Test Attack">
+  <data key="d24">belongsToAttack</data>
+  <data key="d25">1.0</data>
+</edge>
+<edge source="repo:URL4|Test Attack" target="strategy:3b8cd954ea8a9a8b9e5e0a8ced51520958f691f1fa13d66c9f5ab4bdd5e92f1d|Test Attack">
+  <data key="d24">Implements</data>
+  <data key="d25">1.0</data>
+</edge>
+<edge source="cluster:1|Test Attack|strategy" target="strategy:3b8cd954ea8a9a8b9e5e0a8ced51520958f691f1fa13d66c9f5ab4bdd5e92f1d|Test Attack">
+  <data key="d24">hasElement</data>
+  <data key="d25">1.0</data>
+</edge>
+<edge source="cluster:1|Test Attack|strategy" target="repo:URL4|Test Attack">
+  <data key="d24">isImplementedIn</data>
+  <data key="d25">1.0</data>
+</edge>
+<edge source="cluster:1|Test Attack|strategy" target="strategy:260fecedfdd1ed47fe81db8797a6cb05f566dfc692dc6230e74b9e83413acb9d|Test Attack">
+  <data key="d24">hasElement</data>
+  <data key="d25">1.0</data>
+</edge>
+<edge source="cluster:1|Test Attack|strategy" target="repo:URL5|Test Attack">
+  <data key="d24">isImplementedIn</data>
+  <data key="d25">1.0</data>
+</edge>
+<edge source="strategy:260fecedfdd1ed47fe81db8797a6cb05f566dfc692dc6230e74b9e83413acb9d|Test Attack" target="repo:URL5|Test Attack">
+  <data key="d24">hasSource</data>
+  <data key="d25">1.0</data>
+</edge>
+<edge source="strategy:260fecedfdd1ed47fe81db8797a6cb05f566dfc692dc6230e74b9e83413acb9d|Test Attack" target="cluster:1|Test Attack|strategy">
+  <data key="d24">belongsTo</data>
+  <data key="d25">1.0</data>
+</edge>
+<edge source="repo:URL5|Test Attack" target="attack:Test Attack">
+  <data key="d24">belongsToAttack</data>
+  <data key="d25">1.0</data>
+</edge>
+<edge source="repo:URL5|Test Attack" target="strategy:260fecedfdd1ed47fe81db8797a6cb05f566dfc692dc6230e74b9e83413acb9d|Test Attack">
+  <data key="d24">Implements</data>
+  <data key="d25">1.0</data>
+</edge>
+<edge source="strategy:ee3e0c2126cb9739760fc92e8e247903c118a10b1a25bbbe939bfd4f9729c47f|Test Attack" target="repo:URL6|Test Attack">
+  <data key="d24">hasSource</data>
+  <data key="d25">1.0</data>
+</edge>
+<edge source="strategy:ee3e0c2126cb9739760fc92e8e247903c118a10b1a25bbbe939bfd4f9729c47f|Test Attack" target="cluster:2|Test Attack|strategy">
+  <data key="d24">belongsTo</data>
+  <data key="d25">1.0</data>
+</edge>
+<edge source="repo:URL6|Test Attack" target="attack:Test Attack">
+  <data key="d24">belongsToAttack</data>
+  <data key="d25">1.0</data>
+</edge>
+<edge source="repo:URL6|Test Attack" target="strategy:ee3e0c2126cb9739760fc92e8e247903c118a10b1a25bbbe939bfd4f9729c47f|Test Attack">
+  <data key="d24">Implements</data>
+  <data key="d25">1.0</data>
+</edge>
+<edge source="cluster:2|Test Attack|strategy" target="strategy:ee3e0c2126cb9739760fc92e8e247903c118a10b1a25bbbe939bfd4f9729c47f|Test Attack">
+  <data key="d24">hasElement</data>
+  <data key="d25">1.0</data>
+</edge>
+<edge source="cluster:2|Test Attack|strategy" target="repo:URL6|Test Attack">
+  <data key="d24">isImplementedIn</data>
+  <data key="d25">1.0</data>
+</edge>
+<edge source="feature:'ddf024d2e5c8275294ae7581c1c58f5c4513087dff350494fb4c698fe517d7f4'|Test Attack" target="cluster:0|Test Attack|feature">
+  <data key="d24">belongsTo</data>
+  <data key="d25">1.0</data>
+</edge>
+<edge source="strategy:'ddf024d2e5c8275294ae7581c1c58f5c4513087dff350494fb4c698fe517d7f4'|Test Attack" target="feature:'ddf024d2e5c8275294ae7581c1c58f5c4513087dff350494fb4c698fe517d7f4'|Test Attack">
+  <data key="d24">manifestsAs</data>
+  <data key="d25">1.0</data>
+</edge>
+<edge source="cluster:0|Test Attack|feature" target="feature:'ddf024d2e5c8275294ae7581c1c58f5c4513087dff350494fb4c698fe517d7f4'|Test Attack">
+  <data key="d24">hasElement</data>
+  <data key="d25">1.0</data>
+</edge>
+<edge source="feature:'fdf8c063163210c0461e1d3e683d638197409dd6db59df510679b3de31e71595'|Test Attack" target="cluster:1|Test Attack|feature">
+  <data key="d24">belongsTo</data>
+  <data key="d25">1.0</data>
+</edge>
+<edge source="strategy:'fdf8c063163210c0461e1d3e683d638197409dd6db59df510679b3de31e71595'|Test Attack" target="feature:'fdf8c063163210c0461e1d3e683d638197409dd6db59df510679b3de31e71595'|Test Attack">
+  <data key="d24">manifestsAs</data>
+  <data key="d25">1.0</data>
+</edge>
+<edge source="cluster:1|Test Attack|feature" target="feature:'fdf8c063163210c0461e1d3e683d638197409dd6db59df510679b3de31e71595'|Test Attack">
+  <data key="d24">hasElement</data>
+  <data key="d25">1.0</data>
+</edge>
+<edge source="cluster:1|Test Attack|feature" target="feature:'602374b01781f3fdda1bd52ce4082d5745d9a897a77ab7521c32d479b0b55685'|Test Attack">
+  <data key="d24">hasElement</data>
+  <data key="d25">1.0</data>
+</edge>
+<edge source="cluster:1|Test Attack|feature" target="feature:'06c0cad2e3bd060e555caec1363c8ea19f8ef3d1b131117fbe9dbeeb0b347933'|Test Attack">
+  <data key="d24">hasElement</data>
+  <data key="d25">1.0</data>
+</edge>
+<edge source="feature:'602374b01781f3fdda1bd52ce4082d5745d9a897a77ab7521c32d479b0b55685'|Test Attack" target="cluster:1|Test Attack|feature">
+  <data key="d24">belongsTo</data>
+  <data key="d25">1.0</data>
+</edge>
+<edge source="strategy:'602374b01781f3fdda1bd52ce4082d5745d9a897a77ab7521c32d479b0b55685'|Test Attack" target="feature:'602374b01781f3fdda1bd52ce4082d5745d9a897a77ab7521c32d479b0b55685'|Test Attack">
+  <data key="d24">manifestsAs</data>
+  <data key="d25">1.0</data>
+</edge>
+<edge source="feature:'06c0cad2e3bd060e555caec1363c8ea19f8ef3d1b131117fbe9dbeeb0b347933'|Test Attack" target="cluster:1|Test Attack|feature">
+  <data key="d24">belongsTo</data>
+  <data key="d25">1.0</data>
+</edge>
+<edge source="strategy:'06c0cad2e3bd060e555caec1363c8ea19f8ef3d1b131117fbe9dbeeb0b347933'|Test Attack" target="feature:'06c0cad2e3bd060e555caec1363c8ea19f8ef3d1b131117fbe9dbeeb0b347933'|Test Attack">
+  <data key="d24">manifestsAs</data>
+  <data key="d25">1.0</data>
+</edge>
+<edge source="feature:'3b8cd954ea8a9a8b9e5e0a8ced51520958f691f1fa13d66c9f5ab4bdd5e92f1d'|Test Attack" target="cluster:2|Test Attack|feature">
+  <data key="d24">belongsTo</data>
+  <data key="d25">1.0</data>
+</edge>
+<edge source="strategy:'3b8cd954ea8a9a8b9e5e0a8ced51520958f691f1fa13d66c9f5ab4bdd5e92f1d'|Test Attack" target="feature:'3b8cd954ea8a9a8b9e5e0a8ced51520958f691f1fa13d66c9f5ab4bdd5e92f1d'|Test Attack">
+  <data key="d24">manifestsAs</data>
+  <data key="d25">1.0</data>
+</edge>
+<edge source="cluster:2|Test Attack|feature" target="feature:'3b8cd954ea8a9a8b9e5e0a8ced51520958f691f1fa13d66c9f5ab4bdd5e92f1d'|Test Attack">
+  <data key="d24">hasElement</data>
+  <data key="d25">1.0</data>
+</edge>
+<edge source="cluster:2|Test Attack|feature" target="feature:'260fecedfdd1ed47fe81db8797a6cb05f566dfc692dc6230e74b9e83413acb9d'|Test Attack">
+  <data key="d24">hasElement</data>
+  <data key="d25">1.0</data>
+</edge>
+<edge source="feature:'260fecedfdd1ed47fe81db8797a6cb05f566dfc692dc6230e74b9e83413acb9d'|Test Attack" target="cluster:2|Test Attack|feature">
+  <data key="d24">belongsTo</data>
+  <data key="d25">1.0</data>
+</edge>
+<edge source="strategy:'260fecedfdd1ed47fe81db8797a6cb05f566dfc692dc6230e74b9e83413acb9d'|Test Attack" target="feature:'260fecedfdd1ed47fe81db8797a6cb05f566dfc692dc6230e74b9e83413acb9d'|Test Attack">
+  <data key="d24">manifestsAs</data>
+  <data key="d25">1.0</data>
+</edge>
+<edge source="feature:'ee3e0c2126cb9739760fc92e8e247903c118a10b1a25bbbe939bfd4f9729c47f'|Test Attack" target="cluster:3|Test Attack|feature">
+  <data key="d24">belongsTo</data>
+  <data key="d25">1.0</data>
+</edge>
+<edge source="strategy:'ee3e0c2126cb9739760fc92e8e247903c118a10b1a25bbbe939bfd4f9729c47f'|Test Attack" target="feature:'ee3e0c2126cb9739760fc92e8e247903c118a10b1a25bbbe939bfd4f9729c47f'|Test Attack">
+  <data key="d24">manifestsAs</data>
+  <data key="d25">1.0</data>
+</edge>
+<edge source="cluster:3|Test Attack|feature" target="feature:'ee3e0c2126cb9739760fc92e8e247903c118a10b1a25bbbe939bfd4f9729c47f'|Test Attack">
+  <data key="d24">hasElement</data>
+  <data key="d25">1.0</data>
+</edge>
+</graph></graphml>

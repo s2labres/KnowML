@@ -1,0 +1,7 @@
+Strategy ID,Name,Description,Code,Rationale,Embedding,Cluster ID,Representing
+'ddf024d2e5c8275294ae7581c1c58f5c4513087dff350494fb4c698fe517d7f4',feature1,description1,code1,rationale1,"[0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 0.10]",0,-1
+'fdf8c063163210c0461e1d3e683d638197409dd6db59df510679b3de31e71595',feature2,description2,code2,rationale2,"[0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 0.10]",0,1
+'06c0cad2e3bd060e555caec1363c8ea19f8ef3d1b131117fbe9dbeeb0b347933',feature4,description4,code4,rationale4,"[0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 0.10]",1,-1
+
+
+

@@ -1,0 +1,10 @@
+Cluster ID,Name,Description,Repository URL,README Content,Representing,Relevant,Embedding
+0,"Strategy0","Description0","URL0","README0",1,"YES","[0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 0.10]"
+0,"Strategy1","Description1","URL1","README1",-1,"YES","[0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 0.10]"
+0,"Strategy2","Description2","URL2","README2",-1,"YES","[0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 0.10]"
+0,"Strategy3","Description3","URL3","README3",-1,"YES","[0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 0.10]"
+1,"Strategy4","Description4","URL1","README4",1,"YES","[0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 0.10]"
+1,"Strategy5","Description5","URL2","README5",-1,"YES","[0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 0.10]"
+2,"Strategy6","Description6","URL3","README6",-1,"YES","[0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 0.10]"
+2,"Strategy7","Description7","URL6","README7", 1,"YES","[0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 0.10]"
+3,"Strategy8","Description8","URL7","README8",1,"YES","[0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 0.10]"

@@ -1,0 +1,5 @@
+Cluster ID,Name,Description,Repository URL,README Content,Representing,Relevant,Embedding
+0,"Strategy0","Description0","URL0","README0",1,"YES","[0, 0, 0, 0]"
+0,"Strategy1","Description1","URL1","README1",-1,"YES","[0, 0, 0, 0]"
+1,"Strategy4","Description4","URL1","README4",1,"YES","[6, 6, 6, 6]"
+1,"Strategy5","Description5","URL2","README5",-1,"YES","[6, 6, 6, 6]"
