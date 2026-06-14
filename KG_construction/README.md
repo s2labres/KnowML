@@ -170,35 +170,3 @@ Unit tests are available under:
 Run these to validate reasoning modules and rule implementations.
 
 
-
-Perfect — here’s a cleaned-up, **reader-friendly version** of your Evaluation README section, with consistent style and structure:
-
----
-
-# Evaluation of LLM NER
-
-This module evaluates **Named Entity Recognition (NER)** performance of LLMs against a human-annotated dataset.
-
----
-
-## Dataset
-
-* Located in: `./dataset/`
-* Files:
-
-  * **`annotated_data.csv`** → human-annotated ground truth
-  * **`<model_name>.csv`** → NER outputs from different LLMs (aligned with ground truth for comparison)
-
----
-
-## Evaluation Scripts
-
-* **`./evaluate/strategy_extraction.ipynb`**
-  → Main evaluation notebook for comparing LLM outputs against human annotations
-
-* **`./evaluate/Create Custom Task.ipynb`**
-  → Script used for running the **GoLLIE model** ([GitHub Repo](https://github.com/hitz-zentroa/GoLLIE/tree/main))
-
----
-
-
